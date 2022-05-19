@@ -83,6 +83,104 @@ var setWaypointsBergenMob = function () {
     }, { offset: '60px' });
 
 }
+
+
+//framia
+var setWaypointsFramiaMob = function () {
+    //to white
+    $('.kundcase-hero').waypoint(function (direction) {
+        if (direction == 'down') {
+            $('.nav-logo').addClass('nav-logo--white');
+            $('.nav-burger').removeClass('nav-burger--white');
+        } else {
+            $('.nav-logo').removeClass('nav-logo--white');
+            $('.nav-burger').addClass('nav-burger--white');
+        }
+    }, { offset: '60px' });
+
+    //to black
+    $('.kundcase-title').waypoint(function (direction) {
+        if (direction == 'down') {
+            $('.nav-logo').removeClass('nav-logo--white');
+            $('.nav-burger').removeClass('nav-burger--white');
+        } else {
+            $('.nav-logo').addClass('nav-logo--white');
+            $('.nav-burger').removeClass('nav-burger--white');
+        }
+    }, { offset: '60px' });
+
+    //to white
+    $('#black-image').waypoint(function (direction) {
+        if (direction == 'down') {
+            $('.nav-logo').addClass('nav-logo--white');
+            $('.nav-burger').addClass('nav-burger--white');
+        } else {
+            $('.nav-logo').removeClass('nav-logo--white');
+            $('.nav-burger').removeClass('nav-burger--white');
+        }
+    }, { offset: '60px' });
+
+    //to black
+    $('.kundcase-phones').waypoint(function (direction) {
+        if (direction == 'down') {
+            $('.nav-logo').removeClass('nav-logo--white');
+            $('.nav-burger').removeClass('nav-burger--white');
+        } else {
+            $('.nav-logo').addClass('nav-logo--white');
+            $('.nav-burger').addClass('nav-burger--white');
+        }
+    }, { offset: '60px' });
+
+};
+
+//scandinavian
+var setWaypointsScandinavianMob = function () {
+    //to white
+    $('.kundcase-hero').waypoint(function (direction) {
+        if (direction == 'down') {
+            $('.nav-logo').addClass('nav-logo--white');
+            $('.nav-burger').addClass('nav-burger--white');
+        } else {
+            $('.nav-logo').removeClass('nav-logo--white');
+            $('.nav-burger').removeClass('nav-burger--white');
+        }
+    }, { offset: '60px' });
+
+    //to black
+    $('.kundcase-title').waypoint(function (direction) {
+        if (direction == 'down') {
+            $('.nav-logo').removeClass('nav-logo--white');
+            $('.nav-burger').removeClass('nav-burger--white');
+        } else {
+            $('.nav-logo').addClass('nav-logo--white');
+            $('.nav-burger').addClass('nav-burger--white');
+        }
+    }, { offset: '60px' });
+
+    //to white
+    $('#black-image').waypoint(function (direction) {
+        if (direction == 'down') {
+            $('.nav-logo').addClass('nav-logo--white');
+            $('.nav-burger').addClass('nav-burger--white');
+        } else {
+            $('.nav-logo').removeClass('nav-logo--white');
+            $('.nav-burger').removeClass('nav-burger--white');
+        }
+    }, { offset: '60px' });
+
+
+    //to black
+    $('.kundcase-phones').waypoint(function (direction) {
+        if (direction == 'down') {
+            $('.nav-logo').removeClass('nav-logo--white');
+            $('.nav-burger').removeClass('nav-burger--white');
+        } else {
+            $('.nav-logo').addClass('nav-logo--white');
+            $('.nav-burger').addClass('nav-burger--white');
+        }
+    }, { offset: '60px' });
+
+};
 </script>
 </body>
 </html>
