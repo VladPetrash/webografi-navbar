@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+<body>
 <script>
 //bergenstrahle
 var setWaypointsBergenMob = function () {
@@ -81,3 +84,5 @@ var setWaypointsBergenMob = function () {
 
 }
 </script>
+</body>
+</html>
