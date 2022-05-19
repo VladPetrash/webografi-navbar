@@ -50,7 +50,7 @@ var setWaypointsBergenMob = function () {
     }, { offset: '60px' });
 
     //to black
-    $('.kundcase-phone').waypoint(function (direction) {
+    $('.kundcase-phones').waypoint(function (direction) {
         if (direction == 'down') {
             $('.nav-logo').removeClass('nav-logo--white');
             $('.nav-burger').removeClass('nav-burger--white');
