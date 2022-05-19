@@ -17,29 +17,7 @@ var setWaypointsBergenMob = function () {
     }, { offset: '60px' });
 
     //to black
-    $('.kundcase-title').waypoint(function (direction) {
-        if (direction == 'down') {
-            $('.nav-logo').removeClass('nav-logo--white');
-            $('.nav-burger').removeClass('nav-burger--white');
-        } else {
-            $('.nav-logo').addClass('nav-logo--white');
-            $('.nav-burger').addClass('nav-burger--white');
-        }
-    }, { offset: '60px' });
-    
-    //to black
-    $('.kundcase-video').waypoint(function (direction) {
-        if (direction == 'down') {
-            $('.nav-logo').removeClass('nav-logo--white');
-            $('.nav-burger').removeClass('nav-burger--white');
-        } else {
-            $('.nav-logo').addClass('nav-logo--white');
-            $('.nav-burger').addClass('nav-burger--white');
-        }
-    }, { offset: '60px' });
-
-    //to black
-    $('.kundcase-testimonial').waypoint(function (direction) {
+    $('.change-to-black').waypoint(function (direction) {
         if (direction == 'down') {
             $('.nav-logo').removeClass('nav-logo--white');
             $('.nav-burger').removeClass('nav-burger--white');
@@ -181,7 +159,7 @@ var setWaypointsScandinavianMob = function () {
 
 
     //to black
-    $('.kundcase-phones').waypoint(function (direction) {
+    $('.change-to-black-2').waypoint(function (direction) {
         if (direction == 'down') {
             $('.nav-logo').removeClass('nav-logo--white');
             $('.nav-burger').removeClass('nav-burger--white');
